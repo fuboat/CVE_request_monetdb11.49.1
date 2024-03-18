@@ -1,0 +1,199 @@
+I request CVE IDs for 36 discovered vulnerabilities in MonetDB v11.49.1. I deeply appreciate your taking on my requests.
+
+The common information of these bugs is as follows:
+
+[VulnerabilityType Other]
+Denial of Service
+
+------------------------------------------
+
+[Vendor of the product]
+MonetDB B.V.
+
+------------------------------------------
+
+[Affected Product Code Base]
+MonetDB Server - v11.49.1
+
+------------------------------------------
+
+[Affected Component]
+MonetDB Server
+
+------------------------------------------
+
+[Attack Type Other]
+Denial of Service
+
+------------------------------------------
+
+[Impact Denial of Service]
+true
+
+------------------------------------------
+
+[Attack Vectors]
+SQL statements
+
+------------------------------------------
+
+[Has vendor confirmed or acknowledged the vulnerability?]
+true
+
+------------------------------------------
+
+[Discoverer]
+Jingzhou Fu of Wingtecher Lab of Tsinghua University and ShuiMuYuLin Ltd
+
+------------------------------------------
+
+
+
+And the details of each bug are as follows (the first line is the reference to the bug, and the second line is the Suggested Description):
+1.
+https://github.com/MonetDB/MonetDB/issues/7412
+An issue in the vscanf component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+2.
+https://github.com/MonetDB/MonetDB/issues/7413
+An issue in the BATcalcbetween_intern component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+3.
+https://github.com/MonetDB/MonetDB/issues/7414
+An issue in the GDKanalytical_correlation component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+4.
+https://github.com/MonetDB/MonetDB/issues/7415
+An issue in the HEAP_malloc component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+5.
+https://github.com/MonetDB/MonetDB/issues/7416
+An issue in the atom_get_int component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+6.
+https://github.com/MonetDB/MonetDB/issues/7417
+An issue in the trimchars component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+7.
+https://github.com/MonetDB/MonetDB/issues/7418
+An issue in the bind_col_exp component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+8.
+https://github.com/MonetDB/MonetDB/issues/7432
+An issue in the dameraulevenshtein component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+9.
+https://github.com/MonetDB/MonetDB/issues/7433
+An issue in the exp_atom component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+10.
+https://github.com/MonetDB/MonetDB/issues/7434
+An issue in the exp_bin component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+11.
+https://github.com/MonetDB/MonetDB/issues/7435
+An issue in the exp_copy component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+12.
+https://github.com/MonetDB/MonetDB/issues/7436
+An issue in the exp_ref component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+13.
+https://github.com/MonetDB/MonetDB/issues/7437
+An issue in the exp_values_set_supertype component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+14.
+https://github.com/MonetDB/MonetDB/issues/7438
+An issue in the exps_bind_column component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+15.
+https://github.com/MonetDB/MonetDB/issues/7439
+An issue in the exps_card component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+16.
+https://github.com/MonetDB/MonetDB/issues/7440
+An issue in the gc_col component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+17.
+https://github.com/MonetDB/MonetDB/issues/7441
+An issue in the is_column_unique component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+18.
+https://github.com/MonetDB/MonetDB/issues/7442
+An issue in the mat_join2 component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+19.
+https://github.com/MonetDB/MonetDB/issues/7443
+An issue in the merge_table_prune_and_unionize component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+20.
+https://github.com/MonetDB/MonetDB/issues/7472
+An issue in the tail_type component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+21.
+https://github.com/MonetDB/MonetDB/issues/7473
+An issue in the SQLunionfunc component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+22.
+https://github.com/MonetDB/MonetDB/issues/7474
+An issue in the VLTgenerator_table_ component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+23.
+https://github.com/MonetDB/MonetDB/issues/7475
+An issue in the __nss_database_lookup component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+24.
+https://github.com/MonetDB/MonetDB/issues/7476
+An issue in the subrel_bin component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+25.
+https://github.com/MonetDB/MonetDB/issues/7477
+An issue in the atom_cmp component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+26.
+https://github.com/MonetDB/MonetDB/issues/7478
+An issue in the exp_equal component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+27.
+https://github.com/MonetDB/MonetDB/issues/7479
+An issue in the exp_ref component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+28.
+https://github.com/MonetDB/MonetDB/issues/7480
+An issue in the get_rel_count component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+29.
+https://github.com/MonetDB/MonetDB/issues/7481
+An issue in the mvc_row_result_wrap component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+30.
+https://github.com/MonetDB/MonetDB/issues/7482
+An issue in the bin_find_smallest_column component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+31.
+https://github.com/MonetDB/MonetDB/issues/7483
+An issue in the rel_get_statistics_ component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+32.
+https://github.com/MonetDB/MonetDB/issues/7484
+An issue in the rel_optimize_projections_ component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+33.
+https://github.com/MonetDB/MonetDB/issues/7485
+An issue in the exp_setalias component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+34.
+https://github.com/MonetDB/MonetDB/issues/7486
+An issue in the ALGgroupby component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+35.
+https://github.com/MonetDB/MonetDB/issues/7487
+An issue in the sql_init_subtype component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+36.
+https://github.com/MonetDB/MonetDB/issues/7488
+An issue in the strCmp component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+
+
+I deeply appreciate your taking on my requests! Thank you again for your support!
